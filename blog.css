@@ -3,9 +3,10 @@ body {
     padding: 20px;
     background: #f1f1f1;
 }
-.header {
-    text-align: center;
+.header{
     padding: 60px;
+    width: auto;
+    height: 175px;
     text-align: center;
     background: aquamarine;
     color: thistle;
@@ -37,13 +38,24 @@ row{
     background-color: azure;
     color: aliceblue;
 }
-.topnav a{
+
+topnav a{
     float: left;
-    color: black;
+    display: grid;
+    background-color: aquamarine;
+    width: auto;
+    height: 25px;
     text-align: center;
-    padding: 10px 14px;
+    margin: auto;
+    /* padding: 10px 14px; */
     text-decoration: none;
     font-size: 15px;
+}
+figcaption{
+    color: black;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
 }
 img{
     max-height: 150px;
@@ -53,4 +65,12 @@ img{
 }
 .leftcolum .card{
     height: 200px;
+}
+footer{
+    background-color: aquamarine;
+    height: 55px;
+    font-size: 1.3em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
 }

@@ -19,6 +19,7 @@ header{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    display: flex;
 }
 .search{
     float: right;
@@ -81,7 +82,7 @@ section div.panel{
 }
 footer{
     background-color: aquamarine;
-    height: 25px;
+    height: 55px;
     font-size: 1.3em;
     color: #fff;
     text-align: center;
